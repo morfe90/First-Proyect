@@ -1,0 +1,225 @@
+body {
+    background-attachment: fixed;
+    background-image: url("https://img.datacentermarket.es/wp-content/uploads/2023/08/24095659/ordenador-cuantico-apertura.jpeg");
+}
+
+article.glass{
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-left: 50px;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+header.header{
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+section .logo{
+    height: 100px;
+    padding-left: 260px;
+    padding-top: 20px;
+}
+
+.q{
+    font-size: 70px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    -webkit-text-stroke:2px;
+    -webkit-text-stroke-color: black;
+    padding-left: 20px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+nav{
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 20px;
+    margin-right: 450px;
+    margin-left: 50px;
+}
+
+article.nav{
+    justify-content: space-between;
+    margin-right:50px;
+    margin-left: 10px;
+}
+
+.in{
+    text-decoration:none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke:0.8px;
+    -webkit-text-stroke-color: black;
+}
+
+.aside{
+    position:fixed;
+    margin-left: 905px;
+    display:inline;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 380px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.indice{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke:0.8px;
+    -webkit-text-stroke-color: black;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+h3{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h4{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bien{
+    color: blue;
+}
+
+.mal{
+    color: red;
+}
+
+.intro{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.video2{
+    display: flex;
+    justify-content: center;
+}
+
+.oro{
+    font-style: oblique;
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 20px;
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+footer .foot{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.repo{
+    display: flex;
+    padding: 100px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+.adicionales{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.correo{
+    text-decoration: none;
+    color:chartreuse;
+    font-size: 50px;
+}
+
+.principal{
+    color: rgb(92, 69, 242);
+    text-decoration:underline;
+    text-align: center;
+    font-size: 50px;
+}
